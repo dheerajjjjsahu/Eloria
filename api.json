@@ -1,0 +1,121 @@
+[{
+        "id": 1,
+        "title": "Eloria Classic Winter Jacket",
+        "price": 109.95,
+        "description": "A timeless winter jacket designed for elegance and warmth.",
+        "category": "women's clothing",
+        "image": "images/product_images/Classic Winter Jacket.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Eloria Premium Cotton Top",
+        "price": 22.3,
+        "description": "Soft cotton top with a flattering fit for casual elegance.",
+        "category": "women's clothing",
+        "image": "images/product_images/Premium Cotton Top.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Eloria Luxe Leather Jacket",
+        "price": 55.99,
+        "description": "Statement faux-leather jacket with bold feminine style.",
+        "category": "women's clothing",
+        "image": "images/product_images/Luxe Leather Jacket.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Eloria Tailored Casual Shirt",
+        "price": 15.99,
+        "description": "Lightweight casual shirt for everyday sophistication.",
+        "category": "women's clothing",
+        "image": "images/product_images/tailored Casual Shirt.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Eloria Elegant Long Kurti",
+        "price": 29.99,
+        "description": "Graceful long kurti designed for modern Indian elegance.",
+        "category": "women's clothing",
+        "image": "images/product_images/Elegant Long Kurti.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Eloria Floral Summer Dress",
+        "price": 34.99,
+        "description": "Lightweight floral dress perfect for summer outings.",
+        "category": "women's clothing",
+        "image": "images/product_images/Floral Summer Dress.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Eloria Satin Party Dress",
+        "price": 49.99,
+        "description": "Premium satin party dress with a luxurious finish.",
+        "category": "women's clothing",
+        "image": "images/product_images/Satin Party Dress.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Eloria High-Waist Palazzo Pants",
+        "price": 27.99,
+        "description": "Flowy palazzo pants for comfort and style.",
+        "category": "women's clothing",
+        "image": "images/product_images/High-Waist Palazzo Pants.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Eloria Cozy Knit Sweater",
+        "price": 31.99,
+        "description": "Soft knit sweater designed for cozy winter days.",
+        "category": "women's clothing",
+        "image": "images/product_images/Cozy Knit Sweater.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Eloria Office Wear Blazer",
+        "price": 59.99,
+        "description": "Structured blazer for professional and elegant looks.",
+        "category": "women's clothing",
+        "image": "images/product_images/Office Wear Blazer.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Eloria Straight Fit Jeans",
+        "price": 39.99,
+        "description": "Classic straight-fit jeans for daily wear.",
+        "category": "women's clothing",
+        "image": "images/product_images/Straight Fit Jeans.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Eloria Soft Lounge Wear Set",
+        "price": 24.99,
+        "description": "Comfortable lounge wear set for relaxed days.",
+        "category": "women's clothing",
+        "image": "images/product_images/soft Lounge Wear Set.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Eloria Ethnic Anarkali Dress",
+        "price": 64.99,
+        "description": "Elegant Anarkali dress for festive occasions.",
+        "category": "women's clothing",
+        "image": "images/product_images/Ethnic Anarkali Dress.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Eloria Chic Crop Top",
+        "price": 18.99,
+        "description": "Trendy crop top for stylish everyday outfits.",
+        "category": "women's clothing",
+        "image": "images/product_images/Chic Crop Top.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Eloria Winter Woolen Coat",
+        "price": 72.99,
+        "description": "Premium woolen coat for cold winter days.",
+        "category": "women's clothing",
+        "image": "images/product_images/Winter Woolen Coat.jpg"
+    }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Eloria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#1A1A1F] flex justify-center items-center min-h-screen">
+
+    <form id="loginForm" class="bg-[#0F172A] p-6 w-96 rounded-xl shadow-xl">
+        <h1 class="text-3xl text-[#E5E7EB] mb-6 text-center font-serif">Welcome Back to Eloria!</h1>
+
+        <input type="email" placeholder="Enter Email" id="email" class="w-full mb-3 p-2 rounded bg-[#2B2B2B] text-white" required />
+        <input type="password" placeholder="Enter Password" id="pass" class="w-full mb-3 p-2 rounded bg-[#2B2B2B] text-white" required />
+
+        <button type="submit" class="w-full bg-[#E6C58F] hover:bg-[#d4b56c] text-[#1A1A1F] py-3 rounded font-medium mb-4">Login</button>
+
+        <button type="button" onclick="window.location.href='Signup.html'" class="w-full bg-[#E6C58F] hover:bg-[#d4b56c] text-[#1A1A1F] py-3 rounded font-medium">Go to Signup</button>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById("loginForm");
+            form.addEventListener("submit", function(e) {
+                e.preventDefault();
+                const email = document.getElementById("email").value.trim().toLowerCase();
+                const pass = document.getElementById("pass").value.trim();
+                const users = JSON.parse(localStorage.getItem("users")) || [];
+                const user = users.find(u => u.email === email && u.pass === pass);
+
+                if (user) {
+                    localStorage.setItem("loggedInUser", JSON.stringify(user));
+                    alert("Login successful!");
+                    window.location.href = "Home.html";
+                } else {
+                    alert("Invalid email or password!");
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

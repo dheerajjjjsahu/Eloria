@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eloria</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="m-0 p-0">
+
+    <nav class="fixed top-0 left-0 w-full bg-black text-white z-50 px-6 flex justify-between items-center" style="height: 60px;">
+        <div class="text-white text-3xl font-serif tracking-widest">
+            Eloria
+            <div class="text-[#E6C58F] text-xs font-sans tracking-wide">
+                WOMEN'S CLOTHES
+            </div>
+        </div>
+
+        <div class="hidden md:flex gap-4 items-center">
+            <button onclick="login1()" class="px-4 py-1 bg-[#E6C58F] text-black rounded hover:bg-[#d4b56c] transition font-medium">
+                Login
+            </button>
+            <button onclick="signup1()" class="px-4 py-1 bg-[#E6C58F] text-black rounded hover:bg-[#d4b56c] transition font-medium">
+                Signup
+            </button>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top:60px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/slider_images/Black and Beige Minimalist Black Friday Sale Banner.png" class="d-block w-100" style="height: calc(100vh - 60px); object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/slider_images/Beige Gray Aesthetic Photo Collage Shop New Collection Promotion Banner.png" class="d-block w-100" style="height: calc(100vh - 60px); object-fit: cover;">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

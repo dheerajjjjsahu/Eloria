@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Girls Fashion</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#1A1A1F] pt-20 min-h-screen flex flex-col">
+
+    <div id="navbar"></div>
+
+    <section class="pb-16 px-6 max-w-7xl mt-3 mx-auto">
+        <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+
+            <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6">
+                About Us
+            </h1>
+
+            <p class="text-gray-600 text-center max-w-3xl mx-auto mb-10">
+                Welcome to
+                <span class="font-semibold text-indigo-600">Eloria Fashion</span> — where style meets confidence. We bring you the latest trends in girls’ clothing, designed to make you feel bold, beautiful, and comfortable every day.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+
+                <div class="p-6 rounded-xl bg-gray-50 hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold mb-2 text-indigo-600">Our Mission</h3>
+                    <p class="text-gray-600 text-sm">
+                        To provide trendy, affordable, and high-quality fashion that empowers girls to express their unique style.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-gray-50 hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold mb-2 text-indigo-600">Our Collection</h3>
+                    <p class="text-gray-600 text-sm">
+                        From casual wear to party outfits, our collection is curated with love, comfort, and modern fashion in mind.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-gray-50 hover:shadow-md transition">
+                    <h3 class="text-xl font-semibold mb-2 text-indigo-600">Why Choose Us?</h3>
+                    <p class="text-gray-600 text-sm">
+                        Premium quality, fast delivery, easy returns, and styles that keep you ahead of the fashion game.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-6 mt-auto ">
+        <p class="text-sm">&copy; 2026 Eloria Fashion. All rights reserved.</p>
+    </footer>
+
+    <script>
+        fetch("./navbar.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("navbar").innerHTML = data;
+            });
+    </script>
+
+    <script src="navbar.js"></script>
+
+</body>
+
+</html>
